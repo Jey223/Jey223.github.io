@@ -1,0 +1,231 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Serif Pro', serif;
+    background-color: #010a26;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+}
+header {
+    height: 6rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+h2 , h2 a{
+    margin: 0;
+    color: #90a66f;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 10%;
+    padding: 0.2rem;
+    box-shadow:0 4px 7px 0px #90a66f;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+    margin-left: 4rem;
+}
+nav a{
+    display: block;
+    font-size:1rem;
+    color:#f2f2f2;
+    padding-bottom: 5px;
+}
+nav a:hover{
+    border-bottom: 1px solid #f2f2f2;
+}
+section{
+    height: auto;
+    display: flex;
+    flex-flow:row nowrap;
+    padding: 1.4rem 0;
+    justify-content: space-between;
+}
+.in-wrapper{
+    align-items: center;
+}
+h1 span{
+    display: block;
+    font-family: 'Edu SA Beginner', cursive;
+    color: #bf4b81;
+    transition: padding 2s ease-in;
+    font-size: 4rem;
+    padding-left: 4rem;
+}
+h1 span:hover{
+    padding:1rem 0 1rem 12rem ;
+    color: #90a66f;
+}
+section h1{
+    margin: 0;
+    flex-basis: 50%;
+    color:#f2f2f2;
+    font-size: 3.5rem;
+    font-family: 'Cormorant SC', serif;
+}
+
+section p{
+    flex-basis: 50%;
+    color: #f2f2f2;
+    font-size: 2rem;
+    font-family:'Cormorant SC', serif ;
+}
+p span{
+    display: block;
+    font-size: 1.5rem;
+}
+span a{
+    color: #bf4b81;
+}
+span a:active, span a:hover{
+    border-bottom:1px solid #bf4b81 ;
+}
+.im-ab{
+    border-radius: 0;
+    object-fit:contain;
+}
+section img{
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.section-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.section-wrapper a{
+    flex-basis: 30%;
+    height: 400px;
+    margin-bottom: 2rem;
+    background-color: #010a26;
+    border-radius: 10px;
+    box-shadow: 1px 3px 6px  #f2f2f2;
+}
+.section-wrapper a:hover{
+    transform: scale(0.9);
+}
+a img {
+    width: 100%;
+    height: 250px;
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.context{
+    padding: 1rem;
+    text-align: center;
+}
+.context h3{
+    font-size: 1.5rem;
+    color: #f2f2f2;
+    font-family:'Cormorant SC', serif;
+    margin:0;
+    word-spacing: 5px;
+}
+.context p{
+    font-family: inherit;
+    font-weight: lighter;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: #bf4b81;
+}
+footer{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: #f2f2f2;
+}
+.contact-section{
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0;
+}
+.my-contact{
+    flex-basis: 30%;
+}
+.my-contact h3{
+    margin: 0;  
+    font-size: 2rem;
+    color: #f2f2f2;
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed #f2f2f2;
+    text-align: center;
+}
+.my-contact div{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+.my-contact i{
+    color: #f2f2f2;
+    padding-right: 1rem;
+    font-size: 2.5rem;
+}
+.my-contact p{
+    font-family: inherit;
+    font-size: 1.5rem;
+    margin: 0;
+}
+form{
+    flex-basis: 40%;
+}
+input, textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+textarea{
+    height: 15rem;
+    margin-bottom: 2rem;
+}
+button{
+    /* float: right; */
+    width: 100%;
+    font-size: 1rem;
+    background-color: #bb342f;
+    border: none;
+    color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 10px;
+    display: block;
+}
+form::after{
+    content: "";
+    display: table;
+    clear: both;
+}
