@@ -12,7 +12,7 @@ a{
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Sanchez', serif;
     background-color: #010a26;
 }
 
@@ -36,7 +36,7 @@ h2 , h2 a{
     border-radius: 10%;
     padding: 0.2rem;
     box-shadow:0 4px 7px 0px #90a66f;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ibarra Real Nova', serif;
 }
 
 ul{
@@ -69,7 +69,7 @@ section{
 }
 h1 span{
     display: block;
-    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Ibarra Real Nova', serif;
     color: #bf4b81;
     transition: padding 2s ease-in;
     font-size: 4rem;
@@ -84,18 +84,18 @@ section h1{
     flex-basis: 50%;
     color:#f2f2f2;
     font-size: 3.5rem;
-    font-family: 'Cormorant SC', serif;
 }
 
 section p{
     flex-basis: 50%;
     color: #f2f2f2;
     font-size: 2rem;
-    font-family:'Cormorant SC', serif ;
+    font-family: 'Ibarra Real Nova', serif;
 }
 p span{
     display: block;
     font-size: 1.5rem;
+    font-family: inherit;
 }
 span a{
     color: #bf4b81;
@@ -144,7 +144,6 @@ a img {
 .context h3{
     font-size: 1.5rem;
     color: #f2f2f2;
-    font-family:'Cormorant SC', serif;
     margin:0;
     word-spacing: 5px;
 }
@@ -208,13 +207,13 @@ input, textarea{
     font-size: 1rem;
     border-radius: 10px;
     border: none;
+    font-family: 'Sanchez', serif;
 }
 textarea{
     height: 15rem;
     margin-bottom: 2rem;
 }
 button{
-    /* float: right; */
     width: 100%;
     font-size: 1rem;
     background-color: #bb342f;
@@ -223,9 +222,4 @@ button{
     padding: 1rem;
     border-radius: 10px;
     display: block;
-}
-form::after{
-    content: "";
-    display: table;
-    clear: both;
 }
